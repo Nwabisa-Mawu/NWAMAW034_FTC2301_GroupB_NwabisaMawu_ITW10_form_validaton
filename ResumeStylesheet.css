@@ -3,8 +3,8 @@
 body {font-family: Poppins, sans-serif;
 background-color: #FFECCC;
 color: #464E57;}
-h1{text-align: center; font-size: 10vh; margin-bottom: 25px;}
-#introduction {text-align: center; size: 5em;}
+h1{ font-size: 10vh; margin-bottom: 25px;}
+#introduction {size: 5em;}
 
 #Projects, nav {background-color: #8B7356;}
 
@@ -12,6 +12,6 @@ a {color:#464E57;
 text-decoration: none;}
 a:hover {color: #E49D22;}
 
-
-ul{list-style-type: none;}
+ul {list-style-type: none;}
 .img-size {width: 100px; height: 100px;}
+.text-alignment {text-align: center;}
