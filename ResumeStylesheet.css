@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {font-family: Poppins, sans-serif;
-background-color: #FFECCC;
-color: #464E57;}
-h1{ font-size: 10vh; margin-bottom: 25px;}
+background-color: #FFD39B;
+color: #1C1C1C;}
+h1{ font-size: 10vh; margin-bottom: 25px; margin-top: 25px;}
 #introduction {size: 5em;}
 
-#Projects, nav {background-color: #8B7356;}
 
-a {color:#464E57;
-text-decoration: none;}
+a {color: #1C1C1C; text-decoration: none;}
 a:hover {color: #E49D22;}
 
 ul {list-style-type: none;}
 .img-size {width: 100px; height: 100px;}
 .text-alignment {text-align: center;}
+.new-background {background-color:  #D2B48C;}
