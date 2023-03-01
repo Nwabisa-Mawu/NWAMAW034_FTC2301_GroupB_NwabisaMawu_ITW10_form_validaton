@@ -10,9 +10,9 @@ a:hover {color: #EE7600;}
 
 
 #Profile-pic {border-radius: 50%;}
-#nav-bar {border-style: groove; border-color: #EE7600;}
 
 
+.nav-bar {border-style: groove; border-color: #EE7600;}
 .img-size {width: 100px; height: 100px;}
 .section-margins {margin-top: 50px; margin-bottom: 50px;}
 .paragraph-margins, h3 {margin-left: 60px; margin-right: 60px; padding: 25px 25px 25px 25px;}
