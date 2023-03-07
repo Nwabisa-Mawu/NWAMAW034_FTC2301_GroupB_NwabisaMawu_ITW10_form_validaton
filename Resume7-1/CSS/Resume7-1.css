@@ -1,0 +1,87 @@
+/*IMPORTED FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*ELEMENT SELECTORS*/
+body {font-family: Poppins, sans-serif;
+    background-color: #EEDD82;
+    color: #1C1C1C;}
+    
+a {color: #1C1C1C; 
+        text-decoration: none;}
+        
+a:hover {color: #EE7600;}
+
+.text-alignment, h1 ,h2 {text-align: center;}
+
+/*Name on landing page*/
+    h1{font-size: 10vh; 
+    margin-bottom: 25px; 
+    margin-top: 25px;}
+    
+/* Projects list with image links */
+    #project-list {list-style-type: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;}
+
+/* Project image links */
+    .img-size {width: 300px; 
+        height: 300px;}
+
+
+/* logo and navbar alignment*/
+    header {display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    overflow: hidden;  
+/* Set the navbar to fixed position */
+    position: fixed;                  
+/* Position the navbar at the top of the page */
+    top: 0;                  
+/* Full width */
+    width: 100%;
+    margin-top: 25px;}             
+
+    #logo {border-radius: 50%; 
+            width: 100px; 
+            height: 100px;}
+
+/* navbar individual items alignment */
+    nav { display: flex; 
+    flex-direction: row; margin-right: 200px;
+align-items: baseline;}
+    .nav-items {margin-left: 15px;}
+    
+/*ID SELECTORS*/    
+    #Profile-pic {border-radius: 50%;}
+
+    #landing-page {padding-top: 150px;}
+
+/*CLASS SELECTORS*/
+    .border-look {border-style: groove; 
+    border-color: #EE7600;}
+
+
+    .section-margins {margin-top: 50px; margin-bottom: 50px;}
+
+/* paragraphs for ABOUT*/
+    .About-paragraph-margins {margin-left: 60px; 
+    margin-right: 180px;}
+
+/* Skills-list */
+   #Skills-list {list-style-type: square;}
+
+/* EDUCATION flexbox paragraphs and subheadings */
+    #Education-positioning {display: flex;
+                        flex-direction: row;
+                        /* Aligns the top of the heading and paragraph */
+                        align-items: baseline;}
+    
+    .education-paragraph {border-style: groove; 
+                border-color: #EE7600;
+                margin-left: 15px;
+                margin-right: 20px;
+                padding-left: 15px;
+                border-style: none none none groove;}
+
+    .new-background {background-color:  #D2B48C;}
