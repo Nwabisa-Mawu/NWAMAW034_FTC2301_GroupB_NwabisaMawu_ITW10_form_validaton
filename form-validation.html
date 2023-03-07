@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Example</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+      <form action="#" method="post">
+        <div><label for="User-id">User ID: </label><input name="User-id" type="text" placeholder="User ID" required minlength="5" maxlength="12"></div><br>
+        <div><label for="Password">Password: </label><input name="Password" type="password" minlength="7" maxlength="12" required></div><br>
+        <div><label for="name">Name: </label><input name="name" type="text" placeholder="Name Surname" required></div><br>
+        <div><label for="address">Address: </label><input name="address" type="text"></div><br>
+        
+        
+        <div><label for="country">Country: </label>
+        <select required>
+          <option value="South Africa">South Africa</option>
+          <option value="Botswana">Botswana</option>
+          <option value="Namibia">Namibia</option>
+          <option value="Mozambique">Mozambique</option>
+          <option value="Lesotho">Lesotho</option>
+        </select></div><br>
+
+        <div><label for="zipcode">Zip code: </label><input name="zipcode" type="number" required></div><br>
+        <div><label for="Email">Email: </label><input name="Email" type="email" placeholder="someone@email.com" required></div><br>
+        <div><label for="Sex">Sex:
+            <label for="Male"><input name="Mal-Fem-Not" type="radio" required>Male</label>
+            <label for="Female"><input name="Mal-Fem-Not" type="radio" required>Female</label>
+            <label for="Prefernot"><input name="Mal-Fem-Not" type="radio" required>Prefer not to say</label>
+        </label></div><br>
+        <div><label for="Language">Language: 
+            <label for="English"><input name="Eng-Non" type="checkbox" required>English</label>
+            <label for="Non-English"><input name="Eng-Non" type="checkbox" required>Non-English</label><br>
+        </label></div>
+
+        <div><p>About:</p> 
+            <textarea cols="50" rows="10"></textarea></div>
+        <div><button id="submit">Submit</button></div>
+      </form>
+</body>
+</html>
